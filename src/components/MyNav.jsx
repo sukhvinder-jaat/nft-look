@@ -18,10 +18,9 @@ const MyNav = () => {
     };
   }, [menu]);
   return (
-    <div>
-      {" "}
-      <nav className="position-sticky z-100 top-0 start-0 py_5">
-        <div className="container">
+    <>
+      <nav className="position-sticky z-100 top-0 start-0 py_5 bg-white">
+        <div className=" container px-2">
           <div className="d-flex justify-content-between align-items-center">
             <div className="gap-4 d-flex z-1 align-items-center">
               <a href="#">
@@ -32,7 +31,7 @@ const MyNav = () => {
               <NavSearch />
               <input
                 type="text"
-                className="ms-2  border-0 color_black0F fs_md ff_sans fw-normal lh-1 nav_input"
+                className="ms-2  border-0 color_black0F fs_md ff_sans fw-normal lh_normal  nav_input"
                 placeholder="Search..."
               />
             </div>
@@ -48,7 +47,7 @@ const MyNav = () => {
                   <NavSearch />
                   <input
                     type="text"
-                    className="ms-2  border-0 color_black0F fs_md ff_sans fw-normal lh-1 nav_input"
+                    className="ms-2  border-0 color_black0F fs_md ff_sans fw-normal lh_normal  nav_input"
                     placeholder="Search..."
                   />
                 </div>
@@ -92,7 +91,7 @@ const MyNav = () => {
                 </ul>
 
                 <button
-                  className="nav_btn bg-black rounded-pill text-nowrap text-white ff_sans fw-semibold lh-1 d-flex align-items-center justify-content-center fs_lg border-0"
+                  className="nav_btn bg-black rounded-pill text-nowrap text-white ff_sans fw-semibold lh_normal  d-flex align-items-center justify-content-center fs_lg btn_transition"
                   href="#"
                   onClick={() => setMenu(false)}
                 >
@@ -108,7 +107,7 @@ const MyNav = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
