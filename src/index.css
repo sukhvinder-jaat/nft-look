@@ -221,7 +221,7 @@
   background-position: center;
 }
 .bg_upcoming1 {
-  background-image: url(./assets/images/webp/upcomingBg1.png);
+  background-image: url(./assets/images/webp/upcomingBg1.webp);
 }
 .upcoming_box_spacing {
   padding-top: 43px;
@@ -232,11 +232,8 @@
 .gap_12 {
   gap: 12px;
 }
-.bg_upcoming1 {
-  background-image: url(./assets/images/webp/upcomingBg1.png);
-}
 .bg_upcoming2 {
-  background-image: url(./assets/images/webp/upComingBg2.png);
+  background-image: url(./assets/images/webp/upComingBg2.webp);
 }
 .max_w_455 {
   max-width: 455px;
