@@ -19,7 +19,7 @@ const MyNav = () => {
   }, [menu]);
   return (
     <>
-      <nav className="position-sticky z-100 top-0 start-0 py_5 bg-white">
+      <nav className="position-sticky top-0 start-0 py_5 bg-white z_full">
         <div className=" container px-2">
           <div className="d-flex justify-content-between align-items-center">
             <div className="gap-4 d-flex z-1 align-items-center">

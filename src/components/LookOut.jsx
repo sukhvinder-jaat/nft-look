@@ -46,7 +46,7 @@ const LookOut = () => {
           Top NFT to look out for in 2022
         </h2>
         <div className="row px-2">
-          <Slider {...lookOutSlider} className="">
+          <Slider {...lookOutSlider}>
             {LookOutData.map((data, i) => {
               return (
                 <div className="col-auto px-1 py_40" key={i}>
